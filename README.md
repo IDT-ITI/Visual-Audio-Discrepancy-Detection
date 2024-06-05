@@ -46,8 +46,8 @@ and on the VADD dataset for detecting visual-audio discrepancies on both 3-class
   <thead>
     <tr>
       <th>Approach</th>
-      <th>Accuracy (%)<br>on TAU using the 3-class variant</th>
-      <th>Accuracy (%)<br>on TAU using the 10-class variant</th>
+      <th>Accuracy (%)<br>on TAU<br>using the 3-class variant</th>
+      <th>Accuracy (%)<br>on TAU<br>using the 10-class variant</th>
     </tr>
   </thead>
   <tbody>
@@ -73,7 +73,7 @@ and on the VADD dataset for detecting visual-audio discrepancies on both 3-class
 <table>
   <thead>
     <tr>
-      <th>VADD dataset variant used</th>
+      <th>VADD dataset<br>variant used</th>
       <th>F1-score (%)<br>of the proposed method</th>
     </tr>
   </thead>
