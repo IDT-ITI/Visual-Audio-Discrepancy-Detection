@@ -30,9 +30,9 @@ For classification, we aggregate these embeddings using a self-attention mechani
 
 ## Provided Materials
 This repository includes the source code for the following tasks:
-1. **Extracting Embeddings** (1_extract_features.py): Code for extracting the necessary features from the visual and audio streams of videos of the TAU Audio-Visual Urban Scenes 2021 dataset.
-2. **Experiments on Audio-Visual Joint Classifiers** (2_train_av_classifiers.py): Code for conducting experiments on joint classifiers that utilize both audio and visual data.
-3. **Manipulated Video Detection and Evaluation** (3_vadd_experiments.py): Code for evaluating the identified manipulated videos within the VADD dataset and evaluating.
+1. **Extracting embeddings** (1_extract_features.py): Code for extracting the necessary features from the visual and audio streams of videos of the TAU Audio-Visual Urban Scenes 2021 dataset.
+2. **Experiments on audio-visual joint classifiers** (2_train_av_classifiers.py): Code for conducting experiments on joint classifiers that utilize both audio and visual data.
+3. **Manipulated video detection and evaluation** (3_vadd_experiments.py): Code for evaluating the identified manipulated videos within the VADD dataset and evaluating.
 
 The extracted embeddings for the TAU dataset videos are provided in the "features" folder. The best-performing visual-audio scene detection model, as well as the separate visual- and audio-scene detection models used for the Visual-Audio Discrepancy Detection results table below, are provided in the "models" folder.
 The VADD dataset's split into "pristine" and "manipulated" sets of the TAU dataset videos is provided in the "VADD dataset" folder.
@@ -46,8 +46,8 @@ and on the VADD dataset for detecting visual-audio discrepancies on both 3-class
   <thead>
     <tr>
       <th>Approach</th>
-      <th>Accuracy (%) on TAU using the 3-class variant</th>
-      <th>Accuracy (%) on TAU using the 10-class variant</th>
+      <th>Accuracy (%)<br>on TAU using the 3-class variant</th>
+      <th>Accuracy (%)<br>on TAU using the 10-class variant</th>
     </tr>
   </thead>
   <tbody>
@@ -74,7 +74,7 @@ and on the VADD dataset for detecting visual-audio discrepancies on both 3-class
   <thead>
     <tr>
       <th>VADD dataset variant used</th>
-      <th>F1-score (%) of the proposed method</th>
+      <th>F1-score (%)<br>of the proposed method</th>
     </tr>
   </thead>
   <tbody>
