@@ -1,6 +1,6 @@
 # Visual-Audio-Discrepancy-Detection
 
-This repository contains Python code, pre-trained model, extracted embedding, and the dataset for our paper "Visual and audio scene classification for detecting discrepancies in video: a baseline method and experimental protocol" [1].
+This repository contains Python code, pre-trained models, extracted embedding, and the dataset for our paper "Visual and audio scene classification for detecting discrepancies in video: a baseline method and experimental protocol" [1].
 
 ## Introduction
 
@@ -11,7 +11,7 @@ In audio editing, incorporating the soundscape of an acoustic scene has become s
 Our proposed method focuses on detecting disparities in audio-visual streams, such as incongruous audio tracks with visual scenes or conflicting environmental cues, which can indicate that a video has been fabricated. Our approach leverages visual- and audio-scene classification techniques to detect such discrepancies and provides a benchmark dataset to promote further research in this field.
 
 ## Visual-Audio-Discrepancy-Detection experimental protocol
-The TAU Audio-Visual Urban Scenes 2021, used in Task 1B of the DCASE 2021’s challenge, involves scene estimation on categorizing videos based on their A/V content.
+The TAU Audio-Visual Urban Scenes 2021, used in Task 1B of the DCASE 2021’s challenge, involves scene estimation on categorizing videos based on their audiovisual content.
 
 Aiming to leverage the wealth of visual and auditory data already available in the already existing TAU dataset we created the Visual-Audio-Discrepancy-Detection (VADD) dataset. This involves selecting videos where the visual content belongs to one category, but the audio is from another category. We selected videos from the TAU dataset and exchanged their audio tracks, resulting in a "manipulated" set, while keeping some videos unaltered forming a "pristine" set. These two sets comprise the VADD dataset. We provide both a 10-class and a 3-class version of the dataset, to accommodate different difficulty levels.
 
@@ -35,7 +35,7 @@ This repository includes the source code for the following tasks:
 2. **Experiments on audio-visual joint classifiers** (2_train_av_classifiers.py): Code for conducting experiments on joint classifiers that utilize both audio and visual data.
 3. **Manipulated video detection and evaluation** (3_vadd_experiments.py): Code for evaluating the identified manipulated videos within the VADD dataset and evaluating.
 
-The extracted embeddings for the TAU dataset videos are provided in the "features" folder. The best-performing visual-audio scene classification (VASC) model, as well as the separate visual- and audio-scene classification models (VSC and ASC respectively) are provided in the "models" folder. The VASC, VSC, and ASC models are evaluated in the table below.
+The extracted embeddings for the TAU dataset videos are provided in the "features" folder. The best-performing visual-audio scene classification (VASC) model, as well as the separate visual- and audio-scene classification models (VSC and ASC respectively), are provided in the "models" folder. The VASC, VSC, and ASC models are evaluated in the table below.
 The VADD dataset's split into "pristine" and "manipulated" sets of the TAU dataset videos is provided in the "VADD dataset" folder.
 
 ## Evaluation
@@ -98,7 +98,7 @@ To run this project, you will need to have the following packages installed:
 * PyTorch 1.13 or higher
 * OpenCV
 
-Additionally, there are other required packages. To simplify the setup process, you can use the provided `environment.yml` file located in the "conda" folder to create a conda environment with all necessary dependencies.
+There are other required packages, but to simplify the setup process, you can use the provided `environment.yml` file located in the "conda" folder to create a conda environment with all necessary dependencies.
 
 
 ## Citations
