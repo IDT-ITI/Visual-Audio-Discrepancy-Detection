@@ -117,7 +117,7 @@ The accepted version of the paper is also available on [arXiv](https://arxiv.org
 }
 ```
 
-The "TAU Audio-Visual Urban Scenes 2021" dataset, which serves as the basis for our experimental protocol, is introduced in [2]:
+The "TAU Audio-Visual Urban Scenes 2021" dataset, which serves as the basis for our experimental protocol, was introduced in [2]:
 ```
 @inproceedings{Wang2021_ICASSP,
   title={A Curated Dataset of Urban Scenes for Audio-Visual Scene Analysis},
