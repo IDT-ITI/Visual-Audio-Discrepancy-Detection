@@ -1,6 +1,6 @@
 # Visual-Audio-Discrepancy-Detection
 
-This repository contains the materials (Python code, pre-trained models, extracted embedding, and dataset) for our paper "Visual and audio scene classification for detecting discrepancies in video: a baseline method and experimental protocol" [1].
+This repository contains the materials (Python code, pre-trained models, extracted embeddings, and dataset) for our paper "Visual and audio scene classification for detecting discrepancies in video: a baseline method and experimental protocol" [1].
 
 ## Introduction
 
@@ -110,7 +110,7 @@ The accepted version of the paper is also available on [arXiv](https://arxiv.org
 @article{apostolidis2024visual,
   title={Visual and audio scene classification for detecting discrepancies in video: a baseline method and experimental protocol},
   author={Apostolidis, Konstantinos and Abesser, Jakob and Cuccovillo, Luca and Mezaris, Vasileios},
-  journal={arXiv preprint arXiv:2405.00384},
+  booktitle={{ACM Int. Workshop on Multimedia AI against Disinformation (MAD’24) at the ACM Int. Conf. on Multimedia Retrieval (ICMR’24)}},
   year={2024}
 }
 ```
