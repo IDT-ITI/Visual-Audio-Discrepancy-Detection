@@ -103,8 +103,10 @@ There are other required packages, but to simplify the setup process, you can us
 
 ## Citations
 
-If you utilize any part of this repository in your research, please cite our paper 
+If you utilize any part of this repository in your research, please cite the following paper:
+
 [1] K. Apostolidis, J. Abesser, L. Cuccovillo, V. Mezaris, "Visual and audio scene classification for detecting discrepancies in video: a baseline method and experimental protocol", Proc. ACM Int. Workshop on Multimedia AI against Disinformation (MAD’24) at the ACM Int. Conf. on Multimedia Retrieval (ICMR’24), Thailand, June 2024.
+
 The accepted version of the paper is also available on [arXiv](https://arxiv.org/abs/2405.00384).
 ```
 @article{apostolidis2024visual,
